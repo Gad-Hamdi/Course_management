@@ -21,6 +21,7 @@ namespace CourseManagment.API.Controllers
         {
             var certificate = await _certificateService.GenerateCertificateAsync(request.UserId, request.CourseId);
 
+
             return Ok(certificate);
         }
 

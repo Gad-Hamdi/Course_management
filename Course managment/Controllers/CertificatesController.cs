@@ -20,7 +20,7 @@ namespace CourseManagment.API.Controllers
         public async Task<ActionResult<Certificate>> GenerateCertificate(GenerateCertificateRequest request)
         {
             var certificate = await _certificateService.GenerateCertificateAsync(request.UserId, request.CourseId);
-
+            // try to make conflict
             return Ok(certificate);
         }
 

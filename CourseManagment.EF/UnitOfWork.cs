@@ -39,15 +39,15 @@ namespace CourseManagment.EF
         public IRepository<Certificate> Certificates { get; }
         public IRepository<Company> Companies { get; }
         public IRepository<Course> Courses { get; }
-        public IRepository<EmployeeBadge> EmployeeBadges { get; }
+        public IRepository<EmployeeBadge> EmployeeBadges { get; }//kjhgf
         public IRepository<Enrollment> Enrollments { get; }
-        public IRepository<Lesson> Lessons { get; }
-        public IRepository<Notification> Notifications { get; }
+        public IRepository<Lesson> Lessons { get; }//lkjhgf
+        public IRepository<Notification> Notifications { get; }//xxxxxxxxxxxxx
         public IRepository<PointTransaction> PointTransactions { get; }
         public IRepository<Question> Questions { get; }
         public IRepository<Quiz> Quizzes { get; }
         public IRepository<QuizAttempt> QuizAttempts { get; }
-        public IRepository<Subscription> Subscriptions { get; }
+        public IRepository<Subscription> Subscriptions { get; }//jhgfd
         public IRepository<LeaderboardEntry> LeaderboardEntrys { get; }
         public IRepository<CertificateTemplate > certificateTemplates { get; }
         public IRepository<Webhook> Webhooks { get; }

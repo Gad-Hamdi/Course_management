@@ -25,6 +25,7 @@ namespace CourseManagment.API.Controllers
             List<ApplicationUser> users;
             if (companyId.HasValue)
             {
+
                 users = await _userService.GetUsersByCompanyAsync(companyId.Value);
             }
             else

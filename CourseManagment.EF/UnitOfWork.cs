@@ -39,9 +39,9 @@ namespace CourseManagment.EF
         public IRepository<Certificate> Certificates { get; }
         public IRepository<Company> Companies { get; }
         public IRepository<Course> Courses { get; }
-        public IRepository<EmployeeBadge> EmployeeBadges { get; }//kjhgf
+        public IRepository<EmployeeBadge> EmployeeBadges { get; }
         public IRepository<Enrollment> Enrollments { get; }
-        public IRepository<Lesson> Lessons { get; }//lkjhgf
+        public IRepository<Lesson> Lessons { get; }
         public IRepository<Notification> Notifications { get; }//xxxxxxxxxxxxx
         public IRepository<PointTransaction> PointTransactions { get; }
         public IRepository<Question> Questions { get; }
